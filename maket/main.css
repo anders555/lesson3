@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    /*применяет ко всему? сбросить стили*/
+}
+
+.content-block {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.content-block-title {
+    margin-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300px;
+    margin-bottom: 15px;
+}
+
+.title-on-picture {
+    position: relative;
+    font-family: Raleway', sans-serif;
+    line-height: 20px; 
+    color: rgb(255, 255, 255);
+    top: 50px;
+    left: 640px;
+    z-index: 1;
+}
+
+.text-on-picture {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    line-height: 20px;
+    
+}
+
+.line {
+    margin: 15px;
+}
+.line2 {
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+
+.circle {
+    background-image: url(./images/circle.png);
+    position: relative;
+    left: 195px;
+    width: 70px;
+    height: 70px;
+    top: -25px;
+    margin-top: 50px;
+}
+
+.logo1 {
+    background-image: url(./images/lamp.png);
+    position: relative;
+    width: 23px;
+    height: 30px;
+    top: 18px;
+    left: 23px;
+}
+
+.logo2 {
+    background-image: url(./images/keyboard.png);
+    position: relative;
+    width: 37px;
+    height: 26px;
+    top: 20px;
+    left: 16px;
+}
+
+.logo3 {
+    background-image: url(./images/thunder.png);
+    position: relative;
+    width: 21px;
+    height: 33px;
+    top: 20px;
+    left: 25px;
+}
+
+
+.header-content {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 100px;
+    line-height: 14px;
+}
+
+.subtitle {
+    color: darkgray;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+}
+.background-wrapper {
+    background-image: url('./images/noname\ image.png');
+    width: 1400px;
+    height: 325px;
+    left: 0px;
+    position: absolute;
+    margin: 50px 0px 0px;
+    padding: 0px;
+
+}
+
+.gray {
+    background-image: url('./images/noname\ element.png');
+    position: relative;
+    left: 0px;
+    width: 1400px;
+    height: 325px;
+    top: -61px;
+    
+}
+.ramka {
+    background-image: url(./images/ramka.png);
+    width: 135px;
+    height: 42px;
+    position: relative;
+    top: -131px;
+    left: 640px;
+
+}
+
+.download {
+    background-image: url(./images/download.png);
+    width: 71px;
+    height: 13px;
+    position: relative;
+    top: 14px;
+    left:34px;
+
+}
+.text-on-picture {
+    width: 71px;
+    height: 13px;
+    position: relative;
+    top: 14px;
+    left:34px;
+    display: inline-block;
+    color: blanchedalmond;
+    z-index: 2;
+}
+.blackback {
+    position: relative;
+    width: 1400px;
+    height: 101px;
+    background-color: black;
+    top: -103px;
+    z-index: 1;
+}
+
+.icons {
+    background-image: url(./images/icons.png);
+    width: 317px;
+    height: 23px;
+    position: relative;
+    top: 30px;
+    left:541px;
+}
